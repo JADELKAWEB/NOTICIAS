@@ -184,19 +184,20 @@ header{
 }
 
 .portada{
-       padding-left: 65px;
+       
        display: inline-flex;
        display: grid;
        align-content: space-evenly;
-         justify-content: center;
+
+       justify-content: center;
 }
 
 .cosass{
         padding-right: 30px;
         display: inline-flex;
         padding-left: 20px;
-        width: 100%px ;
-        height: 240px;
+        width: 90% ;
+        height: 200px;
         margin: 0 auto;
 }
 
@@ -223,7 +224,7 @@ header{
 #declaracion{
 
         width: 90%;
-        height: 200px;
+        height: 150px;
 
         margin: auto;
         
