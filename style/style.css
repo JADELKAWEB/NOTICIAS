@@ -4,9 +4,18 @@
 
 body{
         background-color: rgb(176, 176, 176);
+        min-width: 450px;
+        max-width: 100%;
+        height: 100%;
         
 
 
+}
+
+#opacitytex{
+        opacity: 10%;
+        width: 30px;
+        height: 20px;
 }
 
 /*cuerpo de la pagina*/
@@ -102,7 +111,7 @@ header{
 
         width: 70%;
         height: auto;
-        min-width: 10%;
+        min-width: 300;
         min-height: 50px;
 }
 
@@ -175,8 +184,12 @@ header{
 
 #imagenPortada{
 
-        height: 400px;
-        width: 660px;
+        max-height: 400px;
+        margin: 0 auto;
+        width: 90%;
+        height: 300px;
+        min-height: 50px;
+        min-width: 10%;
         border-width: 1px;
         border-style: solid;
         border-color: rgb(255, 0, 0);
@@ -193,11 +206,12 @@ header{
 }
 
 .cosass{
-        padding-right: 30px;
+       
         display: inline-flex;
-        padding-left: 20px;
-        width: 90% ;
-        height: 200px;
+        width: 90%;
+        min-height: 100px;
+        min-width: 10%;
+        height: 250px;
         margin: 0 auto;
 }
 
@@ -224,7 +238,8 @@ header{
 #declaracion{
 
         width: 90%;
-        height: 150px;
+        height: 250px;
+        min-width: 300px;
 
         margin: auto;
         
@@ -234,8 +249,8 @@ header{
 #declaraciontres{
 
         width: 100%;
-        height: 120px;
-
+        height: 300px;
+        min-height: 300px;
         margin: auto;
         display: flex;
 
@@ -245,7 +260,7 @@ header{
 #declaraciondos{
 
         width: 90%;
-        height: 200px;
+        height: 300px;
 
         margin: auto;
 
